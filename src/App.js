@@ -71,7 +71,7 @@ class App extends Component {
                     <div className="card-body">
                       <h5 className="card-title">
                         <span>
-                          {authors[0].firstName + " " + authors[2].lastName}
+                          {authors[2].firstName + " " + authors[2].lastName}
                         </span>
                       </h5>
                       <small className="card-text">
