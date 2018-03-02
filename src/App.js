@@ -83,13 +83,20 @@ class App extends Component {
                 <div className="col-4">
                   <a href="#" className="card">
                     <div className="image">
-                      <img className="card-img-top img-fluid" src={authors[3].imageUrl} />
+                      <img
+                        className="card-img-top img-fluid"
+                        src={authors[3].imageUrl}
+                      />
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[3].firstName + " " + authors[3].lastName}</span>
+                        <span>
+                          {authors[3].first_name + " " + authors[3].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">{authors[3].books.length} books</small>
+                      <small className="card-text">
+                        {authors[3].books.length} books
+                      </small>
                     </div>
                   </a>
                 </div>
