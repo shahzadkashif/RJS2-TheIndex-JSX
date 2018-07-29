@@ -20,7 +20,7 @@ class App extends Component {
             <div className="authors">
               <h3>Authors</h3>
               <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img
@@ -40,7 +40,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img
@@ -60,7 +60,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img
@@ -80,7 +80,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img
